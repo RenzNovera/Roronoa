@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style= "background-color:black; color: white;">	
+	<h2>What Can JavaScript Do?</h2>
+	<p>JavaScript can change HTML attribute values.</p> 
+	<p>In this case JavaScript changes the value of the src (source) attribute of an Image.</p><center>
+	<button onclick="document.getElementById('myImage').src='on.jpg'">Turn on the light</button>
+	<img id="myImage" src="off.jpg" style="width:300px;height:300px;">
+	<button onclick="document.getElementById('myImage').src='off.jpg'" class="button">Turn off the light</button></center>
+	  <script src="button.js"></script>
+</body>
+</html>

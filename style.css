@@ -1,0 +1,15 @@
+body {
+    font-size: 15pt;
+}
+@keyframes zoomIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+#myImage {
+  animation: zoomIn 1s;
+}
